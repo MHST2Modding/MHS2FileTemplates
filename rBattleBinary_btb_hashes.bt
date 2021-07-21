@@ -1,27 +1,27 @@
 string GetBtbPathFromHash(long hash) {
 	switch(hash){
-		case 0x70049A7A:
-			return "battleai\\MonsterStatus.bin";
-		case 0x47D3D9C7:
-			return "battleai\\npcai.bin";
-		case 0x4636845F:
-			return "battleai\\otomonai.bin";
-		case 0x54C9327C:
-			return "battleai\\StatusValue.bin";
-		case 0xD2DB69C:
-			return "battleparm\\adjustData.bin";
+		case 0xC3D57EDF:
+			return "battleparm\\PlayerData.bin";
+		case 0xB834DA40:
+			return "battleparm\\PartsData.bin";
+		case 0xB73FC609:
+			return "battleparm\\OtomonData.bin";
+		case 0x9E84FFEC:
+			return "battleparm\\MonsterBaseData.bin";
 		case 0x1CAC22C1:
 			return "battleparm\\HunterData.bin";
-		case 0x1E84FFEC:
-			return "battleparm\\MonsterBaseData.bin";
-		case 0x3834DA40:
-			return "battleparm\\PartsData.bin";
-		case 0x373FC609:
-			return "battleparm\\OtomonData.bin";
-		case 0x43D57EDF:
-			return "battleparm\\PlayerData.bin";
+		case 0x8D2DB69C:
+			return "battleparm\\adjustData.bin";
 		case 0x6C605F3E:
 			return "battleai\\testatel.bin";
+		case 0xD4C9327C:
+			return "battleai\\StatusValue.bin";
+		case 0xC636845F:
+			return "battleai\\otomonai.bin";
+		case 0x47D3D9C7:
+			return "battleai\\npcai.bin";
+		case 0xF0049A7A:
+			return "battleai\\MonsterStatus.bin";
 		case 0x15D627B1:
 			return "battleai\\atelscr00000.bin";
 		case 0x28B60E01:
@@ -30,10 +30,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00002.bin";
 		case 0x52765D61:
 			return "battleai\\atelscr00003.bin";
+		case 0xE0568171:
+			return "battleai\\atelscr00004.bin";
+		case 0xDD36A8C1:
+			return "battleai\\atelscr00005.bin";
+		case 0x9A96D211:
+			return "battleai\\atelscr00006.bin";
+		case 0xA7F6FBA1:
+			return "battleai\\atelscr00007.bin";
 		case 0x25A66C70:
 			return "battleai\\atelscr00008.bin";
 		case 0x18C645C0:
 			return "battleai\\atelscr00009.bin";
+		case 0xDE8AF414:
+			return "battleai\\atelscr00010.bin";
+		case 0xE3EADDA4:
+			return "battleai\\atelscr00011.bin";
+		case 0xA44AA774:
+			return "battleai\\atelscr00012.bin";
+		case 0x992A8EC4:
+			return "battleai\\atelscr00013.bin";
 		case 0x2B0A52D4:
 			return "battleai\\atelscr00014.bin";
 		case 0x166A7B64:
@@ -42,6 +58,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00016.bin";
 		case 0x6CAA2804:
 			return "battleai\\atelscr00017.bin";
+		case 0xEEFABFD5:
+			return "battleai\\atelscr00018.bin";
+		case 0xD39A9665:
+			return "battleai\\atelscr00019.bin";
 		case 0x581E86BA:
 			return "battleai\\atelscr00020.bin";
 		case 0x657EAF0A:
@@ -50,10 +70,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00022.bin";
 		case 0x1FBEFC6A:
 			return "battleai\\atelscr00023.bin";
+		case 0xAD9E207A:
+			return "battleai\\atelscr00024.bin";
+		case 0x90FE09CA:
+			return "battleai\\atelscr00025.bin";
+		case 0xD75E731A:
+			return "battleai\\atelscr00026.bin";
+		case 0xEA3E5AAA:
+			return "battleai\\atelscr00027.bin";
 		case 0x686ECD7B:
 			return "battleai\\atelscr00028.bin";
 		case 0x550EE4CB:
 			return "battleai\\atelscr00029.bin";
+		case 0x9342551F:
+			return "battleai\\atelscr00030.bin";
+		case 0xAE227CAF:
+			return "battleai\\atelscr00031.bin";
+		case 0xE982067F:
+			return "battleai\\atelscr00032.bin";
+		case 0xD4E22FCF:
+			return "battleai\\atelscr00033.bin";
 		case 0x66C2F3DF:
 			return "battleai\\atelscr00034.bin";
 		case 0x5BA2DA6F:
@@ -62,6 +98,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00036.bin";
 		case 0x2162890F:
 			return "battleai\\atelscr00037.bin";
+		case 0xA3321EDE:
+			return "battleai\\atelscr00038.bin";
+		case 0x9E52376E:
+			return "battleai\\atelscr00039.bin";
+		case 0x8E4765A7:
+			return "battleai\\atelscr00040.bin";
+		case 0xB3274C17:
+			return "battleai\\atelscr00041.bin";
+		case 0xF48736C7:
+			return "battleai\\atelscr00042.bin";
+		case 0xC9E71F77:
+			return "battleai\\atelscr00043.bin";
 		case 0x7BC7C367:
 			return "battleai\\atelscr00044.bin";
 		case 0x46A7EAD7:
@@ -70,16 +118,32 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00046.bin";
 		case 0x3C67B9B7:
 			return "battleai\\atelscr00047.bin";
+		case 0xBE372E66:
+			return "battleai\\atelscr00048.bin";
 		case 0xFB95FC9:
 			return "battleai\\atelscr00091.bin";
 		case 0x48192519:
 			return "battleai\\atelscr00092.bin";
 		case 0x75790CA9:
 			return "battleai\\atelscr00093.bin";
+		case 0xC759D0B9:
+			return "battleai\\atelscr00094.bin";
+		case 0xFA39F909:
+			return "battleai\\atelscr00095.bin";
+		case 0xBD9983D9:
+			return "battleai\\atelscr00096.bin";
+		case 0x80F9AA69:
+			return "battleai\\atelscr00097.bin";
 		case 0x2A93DB8:
 			return "battleai\\atelscr00098.bin";
 		case 0x3FC91408:
 			return "battleai\\atelscr00099.bin";
+		case 0x8EC105B5:
+			return "battleai\\atelscr00101.bin";
+		case 0xC9617F65:
+			return "battleai\\atelscr00102.bin";
+		case 0xF40156D5:
+			return "battleai\\atelscr00103.bin";
 		case 0x46218AC5:
 			return "battleai\\atelscr00104.bin";
 		case 0x7B41A375:
@@ -88,6 +152,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00106.bin";
 		case 0x181F015:
 			return "battleai\\atelscr00107.bin";
+		case 0x83D167C4:
+			return "battleai\\atelscr00108.bin";
+		case 0xBEB14E74:
+			return "battleai\\atelscr00109.bin";
 		case 0x78FDFFA0:
 			return "battleai\\atelscr00110.bin";
 		case 0x459DD610:
@@ -96,10 +164,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00112.bin";
 		case 0x3F5D8570:
 			return "battleai\\atelscr00113.bin";
+		case 0x8D7D5960:
+			return "battleai\\atelscr00114.bin";
+		case 0xB01D70D0:
+			return "battleai\\atelscr00115.bin";
+		case 0xF7BD0A00:
+			return "battleai\\atelscr00116.bin";
+		case 0xCADD23B0:
+			return "battleai\\atelscr00117.bin";
 		case 0x488DB461:
 			return "battleai\\atelscr00118.bin";
 		case 0x75ED9DD1:
 			return "battleai\\atelscr00119.bin";
+		case 0xFE698D0E:
+			return "battleai\\atelscr00120.bin";
+		case 0xC309A4BE:
+			return "battleai\\atelscr00121.bin";
+		case 0x84A9DE6E:
+			return "battleai\\atelscr00122.bin";
+		case 0xB9C9F7DE:
+			return "battleai\\atelscr00123.bin";
 		case 0xBE92BCE:
 			return "battleai\\atelscr00124.bin";
 		case 0x3689027E:
@@ -108,6 +192,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00126.bin";
 		case 0x4C49511E:
 			return "battleai\\atelscr00127.bin";
+		case 0xCE19C6CF:
+			return "battleai\\atelscr00128.bin";
+		case 0xF379EF7F:
+			return "battleai\\atelscr00129.bin";
 		case 0x35355EAB:
 			return "battleai\\atelscr00130.bin";
 		case 0x855771B:
@@ -116,6 +204,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00132.bin";
 		case 0x7295247B:
 			return "battleai\\atelscr00133.bin";
+		case 0xC0B5F86B:
+			return "battleai\\atelscr00134.bin";
+		case 0xFDD5D1DB:
+			return "battleai\\atelscr00135.bin";
+		case 0xBA75AB0B:
+			return "battleai\\atelscr00136.bin";
+		case 0x871582BB:
+			return "battleai\\atelscr00137.bin";
 		case 0x545156A:
 			return "battleai\\atelscr00138.bin";
 		case 0x38253CDA:
@@ -128,10 +224,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00142.bin";
 		case 0x6F9014C3:
 			return "battleai\\atelscr00143.bin";
+		case 0xDDB0C8D3:
+			return "battleai\\atelscr00144.bin";
+		case 0xE0D0E163:
+			return "battleai\\atelscr00145.bin";
+		case 0xA7709BB3:
+			return "battleai\\atelscr00146.bin";
+		case 0x9A10B203:
+			return "battleai\\atelscr00147.bin";
 		case 0x184025D2:
 			return "battleai\\atelscr00148.bin";
 		case 0x25200C62:
 			return "battleai\\atelscr00149.bin";
+		case 0xE36CBDB6:
+			return "battleai\\atelscr00150.bin";
+		case 0xDE0C9406:
+			return "battleai\\atelscr00151.bin";
+		case 0x99ACEED6:
+			return "battleai\\atelscr00152.bin";
+		case 0xA4CCC766:
+			return "battleai\\atelscr00153.bin";
 		case 0x16EC1B76:
 			return "battleai\\atelscr00154.bin";
 		case 0x2B8C32C6:
@@ -140,6 +252,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00156.bin";
 		case 0x514C61A6:
 			return "battleai\\atelscr00157.bin";
+		case 0xD31CF677:
+			return "battleai\\atelscr00158.bin";
+		case 0xEE7CDFC7:
+			return "battleai\\atelscr00159.bin";
 		case 0x65F8CF18:
 			return "battleai\\atelscr00160.bin";
 		case 0x5898E6A8:
@@ -148,10 +264,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00162.bin";
 		case 0x2258B5C8:
 			return "battleai\\atelscr00163.bin";
+		case 0x907869D8:
+			return "battleai\\atelscr00164.bin";
+		case 0xAD184068:
+			return "battleai\\atelscr00165.bin";
+		case 0xEAB83AB8:
+			return "battleai\\atelscr00166.bin";
+		case 0xD7D81308:
+			return "battleai\\atelscr00167.bin";
 		case 0x558884D9:
 			return "battleai\\atelscr00168.bin";
 		case 0x68E8AD69:
 			return "battleai\\atelscr00169.bin";
+		case 0xAEA41CBD:
+			return "battleai\\atelscr00170.bin";
+		case 0x93C4350D:
+			return "battleai\\atelscr00171.bin";
+		case 0xD4644FDD:
+			return "battleai\\atelscr00172.bin";
+		case 0xE904666D:
+			return "battleai\\atelscr00173.bin";
 		case 0x5B24BA7D:
 			return "battleai\\atelscr00174.bin";
 		case 0x664493CD:
@@ -160,6 +292,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00176.bin";
 		case 0x1C84C0AD:
 			return "battleai\\atelscr00177.bin";
+		case 0x9ED4577C:
+			return "battleai\\atelscr00178.bin";
+		case 0xA3B47ECC:
+			return "battleai\\atelscr00179.bin";
 		case 0x5FF2AE68:
 			return "battleai\\atelscr00180.bin";
 		case 0x629287D8:
@@ -168,6 +304,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00182.bin";
 		case 0x1852D4B8:
 			return "battleai\\atelscr00183.bin";
+		case 0xAA7208A8:
+			return "battleai\\atelscr00184.bin";
+		case 0xA9CE547D:
+			return "battleai\\atelscr00191.bin";
+		case 0xEE6E2EAD:
+			return "battleai\\atelscr00192.bin";
+		case 0xD30E071D:
+			return "battleai\\atelscr00193.bin";
 		case 0x612EDB0D:
 			return "battleai\\atelscr00194.bin";
 		case 0x5C4EF2BD:
@@ -176,6 +320,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00196.bin";
 		case 0x268EA1DD:
 			return "battleai\\atelscr00197.bin";
+		case 0xA4DE360C:
+			return "battleai\\atelscr00198.bin";
+		case 0x99BE1FBC:
+			return "battleai\\atelscr00199.bin";
+		case 0x82493698:
+			return "battleai\\atelscr00200.bin";
+		case 0xBF291F28:
+			return "battleai\\atelscr00201.bin";
+		case 0xF88965F8:
+			return "battleai\\atelscr00202.bin";
+		case 0xC5E94C48:
+			return "battleai\\atelscr00203.bin";
 		case 0x77C99058:
 			return "battleai\\atelscr00204.bin";
 		case 0x4AA9B9E8:
@@ -184,6 +340,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00206.bin";
 		case 0x3069EA88:
 			return "battleai\\atelscr00207.bin";
+		case 0xB2397D59:
+			return "battleai\\atelscr00208.bin";
+		case 0x8F5954E9:
+			return "battleai\\atelscr00209.bin";
 		case 0x4915E53D:
 			return "battleai\\atelscr00210.bin";
 		case 0x7475CC8D:
@@ -192,10 +352,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00212.bin";
 		case 0xEB59FED:
 			return "battleai\\atelscr00213.bin";
+		case 0xBC9543FD:
+			return "battleai\\atelscr00214.bin";
+		case 0x81F56A4D:
+			return "battleai\\atelscr00215.bin";
+		case 0xC655109D:
+			return "battleai\\atelscr00216.bin";
+		case 0xFB35392D:
+			return "battleai\\atelscr00217.bin";
 		case 0x7965AEFC:
 			return "battleai\\atelscr00218.bin";
 		case 0x4405874C:
 			return "battleai\\atelscr00219.bin";
+		case 0xCF819793:
+			return "battleai\\atelscr00220.bin";
+		case 0xF2E1BE23:
+			return "battleai\\atelscr00221.bin";
+		case 0xB541C4F3:
+			return "battleai\\atelscr00222.bin";
+		case 0x8821ED43:
+			return "battleai\\atelscr00223.bin";
 		case 0x3A013153:
 			return "battleai\\atelscr00224.bin";
 		case 0x76118E3:
@@ -204,6 +380,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00226.bin";
 		case 0x7DA14B83:
 			return "battleai\\atelscr00227.bin";
+		case 0xFFF1DC52:
+			return "battleai\\atelscr00228.bin";
+		case 0xC291F5E2:
+			return "battleai\\atelscr00229.bin";
 		case 0x4DD4436:
 			return "battleai\\atelscr00230.bin";
 		case 0x39BD6D86:
@@ -212,6 +392,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00232.bin";
 		case 0x437D3EE6:
 			return "battleai\\atelscr00233.bin";
+		case 0xF15DE2F6:
+			return "battleai\\atelscr00234.bin";
+		case 0xCC3DCB46:
+			return "battleai\\atelscr00235.bin";
+		case 0x8B9DB196:
+			return "battleai\\atelscr00236.bin";
+		case 0xB6FD9826:
+			return "battleai\\atelscr00237.bin";
 		case 0x34AD0FF7:
 			return "battleai\\atelscr00238.bin";
 		case 0x9CD2647:
@@ -224,10 +412,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00242.bin";
 		case 0x5E780E5E:
 			return "battleai\\atelscr00243.bin";
+		case 0xEC58D24E:
+			return "battleai\\atelscr00244.bin";
+		case 0xD138FBFE:
+			return "battleai\\atelscr00245.bin";
+		case 0x9698812E:
+			return "battleai\\atelscr00246.bin";
+		case 0xABF8A89E:
+			return "battleai\\atelscr00247.bin";
 		case 0x29A83F4F:
 			return "battleai\\atelscr00248.bin";
 		case 0x14C816FF:
 			return "battleai\\atelscr00249.bin";
+		case 0xD284A72B:
+			return "battleai\\atelscr00250.bin";
+		case 0xEFE48E9B:
+			return "battleai\\atelscr00251.bin";
+		case 0xA844F44B:
+			return "battleai\\atelscr00252.bin";
+		case 0x9524DDFB:
+			return "battleai\\atelscr00253.bin";
 		case 0x270401EB:
 			return "battleai\\atelscr00254.bin";
 		case 0x1A64285B:
@@ -236,6 +440,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00256.bin";
 		case 0x60A47B3B:
 			return "battleai\\atelscr00257.bin";
+		case 0xE2F4ECEA:
+			return "battleai\\atelscr00258.bin";
+		case 0xDF94C55A:
+			return "battleai\\atelscr00259.bin";
 		case 0x5410D585:
 			return "battleai\\atelscr00260.bin";
 		case 0x6970FC35:
@@ -244,10 +452,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00262.bin";
 		case 0x13B0AF55:
 			return "battleai\\atelscr00263.bin";
+		case 0xA1907345:
+			return "battleai\\atelscr00264.bin";
+		case 0x9CF05AF5:
+			return "battleai\\atelscr00265.bin";
+		case 0xDB502025:
+			return "battleai\\atelscr00266.bin";
+		case 0xE6300995:
+			return "battleai\\atelscr00267.bin";
 		case 0x64609E44:
 			return "battleai\\atelscr00268.bin";
 		case 0x5900B7F4:
 			return "battleai\\atelscr00269.bin";
+		case 0x9F4C0620:
+			return "battleai\\atelscr00270.bin";
+		case 0xA22C2F90:
+			return "battleai\\atelscr00271.bin";
+		case 0xE58C5540:
+			return "battleai\\atelscr00272.bin";
+		case 0xD8EC7CF0:
+			return "battleai\\atelscr00273.bin";
 		case 0x6ACCA0E0:
 			return "battleai\\atelscr00274.bin";
 		case 0x57AC8950:
@@ -256,6 +480,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00276.bin";
 		case 0x2D6CDA30:
 			return "battleai\\atelscr00277.bin";
+		case 0xAF3C4DE1:
+			return "battleai\\atelscr00278.bin";
+		case 0x925C6451:
+			return "battleai\\atelscr00279.bin";
 		case 0x6E1AB4F5:
 			return "battleai\\atelscr00280.bin";
 		case 0x537A9D45:
@@ -264,10 +492,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00282.bin";
 		case 0x29BACE25:
 			return "battleai\\atelscr00283.bin";
+		case 0x9B9A1235:
+			return "battleai\\atelscr00284.bin";
+		case 0xA6FA3B85:
+			return "battleai\\atelscr00285.bin";
+		case 0xE15A4155:
+			return "battleai\\atelscr00286.bin";
+		case 0xDC3A68E5:
+			return "battleai\\atelscr00287.bin";
 		case 0x5E6AFF34:
 			return "battleai\\atelscr00288.bin";
 		case 0x630AD684:
 			return "battleai\\atelscr00289.bin";
+		case 0xA5466750:
+			return "battleai\\atelscr00290.bin";
+		case 0x98264EE0:
+			return "battleai\\atelscr00291.bin";
+		case 0xDF863430:
+			return "battleai\\atelscr00292.bin";
+		case 0xE2E61D80:
+			return "battleai\\atelscr00293.bin";
 		case 0x50C6C190:
 			return "battleai\\atelscr00294.bin";
 		case 0x6DA6E820:
@@ -276,6 +520,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00296.bin";
 		case 0x1766BB40:
 			return "battleai\\atelscr00297.bin";
+		case 0x95362C91:
+			return "battleai\\atelscr00298.bin";
+		case 0xA8560521:
+			return "battleai\\atelscr00299.bin";
 		case 0x243E3D2C:
 			return "battleai\\atelscr00300.bin";
 		case 0x195E149C:
@@ -284,10 +532,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00302.bin";
 		case 0x639E47FC:
 			return "battleai\\atelscr00303.bin";
+		case 0xD1BE9BEC:
+			return "battleai\\atelscr00304.bin";
+		case 0xECDEB25C:
+			return "battleai\\atelscr00305.bin";
+		case 0xAB7EC88C:
+			return "battleai\\atelscr00306.bin";
+		case 0x961EE13C:
+			return "battleai\\atelscr00307.bin";
 		case 0x144E76ED:
 			return "battleai\\atelscr00308.bin";
 		case 0x292E5F5D:
 			return "battleai\\atelscr00309.bin";
+		case 0xEF62EE89:
+			return "battleai\\atelscr00310.bin";
+		case 0xD202C739:
+			return "battleai\\atelscr00311.bin";
+		case 0x95A2BDE9:
+			return "battleai\\atelscr00312.bin";
+		case 0xA8C29459:
+			return "battleai\\atelscr00313.bin";
 		case 0x1AE24849:
 			return "battleai\\atelscr00314.bin";
 		case 0x278261F9:
@@ -296,6 +560,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00316.bin";
 		case 0x5D423299:
 			return "battleai\\atelscr00317.bin";
+		case 0xDF12A548:
+			return "battleai\\atelscr00318.bin";
+		case 0xE2728CF8:
+			return "battleai\\atelscr00319.bin";
 		case 0x69F69C27:
 			return "battleai\\atelscr00320.bin";
 		case 0x5496B597:
@@ -304,10 +572,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00322.bin";
 		case 0x2E56E6F7:
 			return "battleai\\atelscr00323.bin";
+		case 0x9C763AE7:
+			return "battleai\\atelscr00324.bin";
+		case 0xA1161357:
+			return "battleai\\atelscr00325.bin";
+		case 0xE6B66987:
+			return "battleai\\atelscr00326.bin";
+		case 0xDBD64037:
+			return "battleai\\atelscr00327.bin";
 		case 0x5986D7E6:
 			return "battleai\\atelscr00328.bin";
 		case 0x64E6FE56:
 			return "battleai\\atelscr00329.bin";
+		case 0xA2AA4F82:
+			return "battleai\\atelscr00330.bin";
+		case 0x9FCA6632:
+			return "battleai\\atelscr00331.bin";
+		case 0xD86A1CE2:
+			return "battleai\\atelscr00332.bin";
+		case 0xE50A3552:
+			return "battleai\\atelscr00333.bin";
 		case 0x572AE942:
 			return "battleai\\atelscr00334.bin";
 		case 0x6A4AC0F2:
@@ -316,6 +600,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00336.bin";
 		case 0x108A9392:
 			return "battleai\\atelscr00337.bin";
+		case 0x92DA0443:
+			return "battleai\\atelscr00338.bin";
+		case 0xAFBA2DF3:
+			return "battleai\\atelscr00339.bin";
+		case 0xBFAF7F3A:
+			return "battleai\\atelscr00340.bin";
+		case 0x82CF568A:
+			return "battleai\\atelscr00341.bin";
+		case 0xC56F2C5A:
+			return "battleai\\atelscr00342.bin";
+		case 0xF80F05EA:
+			return "battleai\\atelscr00343.bin";
 		case 0x4A2FD9FA:
 			return "battleai\\atelscr00344.bin";
 		case 0x774FF04A:
@@ -324,6 +620,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00346.bin";
 		case 0xD8FA32A:
 			return "battleai\\atelscr00347.bin";
+		case 0x8FDF34FB:
+			return "battleai\\atelscr00348.bin";
+		case 0xB2BF1D4B:
+			return "battleai\\atelscr00349.bin";
 		case 0x74F3AC9F:
 			return "battleai\\atelscr00350.bin";
 		case 0x4993852F:
@@ -332,10 +632,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00352.bin";
 		case 0x3353D64F:
 			return "battleai\\atelscr00353.bin";
+		case 0x81730A5F:
+			return "battleai\\atelscr00354.bin";
+		case 0xBC1323EF:
+			return "battleai\\atelscr00355.bin";
+		case 0xFBB3593F:
+			return "battleai\\atelscr00356.bin";
+		case 0xC6D3708F:
+			return "battleai\\atelscr00357.bin";
 		case 0x4483E75E:
 			return "battleai\\atelscr00358.bin";
 		case 0x79E3CEEE:
 			return "battleai\\atelscr00359.bin";
+		case 0xF267DE31:
+			return "battleai\\atelscr00360.bin";
+		case 0xCF07F781:
+			return "battleai\\atelscr00361.bin";
+		case 0x88A78D51:
+			return "battleai\\atelscr00362.bin";
+		case 0xB5C7A4E1:
+			return "battleai\\atelscr00363.bin";
 		case 0x7E778F1:
 			return "battleai\\atelscr00364.bin";
 		case 0x3A875141:
@@ -344,6 +660,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00366.bin";
 		case 0x40470221:
 			return "battleai\\atelscr00367.bin";
+		case 0xC21795F0:
+			return "battleai\\atelscr00368.bin";
+		case 0xFF77BC40:
+			return "battleai\\atelscr00369.bin";
 		case 0x393B0D94:
 			return "battleai\\atelscr00370.bin";
 		case 0x45B2424:
@@ -352,10 +672,20 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00372.bin";
 		case 0x7E9B7744:
 			return "battleai\\atelscr00373.bin";
+		case 0xCCBBAB54:
+			return "battleai\\atelscr00374.bin";
+		case 0xF1DB82E4:
+			return "battleai\\atelscr00375.bin";
+		case 0xB67BF834:
+			return "battleai\\atelscr00376.bin";
 		case 0x472D4AE1:
 			return "battleai\\atelscr00386.bin";
 		case 0x7A4D6351:
 			return "battleai\\atelscr00387.bin";
+		case 0xF81DF480:
+			return "battleai\\atelscr00388.bin";
+		case 0xC57DDD30:
+			return "battleai\\atelscr00389.bin";
 		case 0x3316CE4:
 			return "battleai\\atelscr00390.bin";
 		case 0x3E514554:
@@ -364,8 +694,22 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00392.bin";
 		case 0x44911634:
 			return "battleai\\atelscr00393.bin";
+		case 0xF6B1CA24:
+			return "battleai\\atelscr00394.bin";
+		case 0xCBD1E394:
+			return "battleai\\atelscr00395.bin";
+		case 0x8C719944:
+			return "battleai\\atelscr00396.bin";
+		case 0xB111B0F4:
+			return "battleai\\atelscr00397.bin";
 		case 0x33412725:
 			return "battleai\\atelscr00398.bin";
+		case 0xDCF92A12:
+			return "battleai\\atelscr00401.bin";
+		case 0x9B5950C2:
+			return "battleai\\atelscr00402.bin";
+		case 0xA6397972:
+			return "battleai\\atelscr00403.bin";
 		case 0x1419A562:
 			return "battleai\\atelscr00404.bin";
 		case 0x29798CD2:
@@ -374,6 +718,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00406.bin";
 		case 0x53B9DFB2:
 			return "battleai\\atelscr00407.bin";
+		case 0xD1E94863:
+			return "battleai\\atelscr00408.bin";
+		case 0xEC8961D3:
+			return "battleai\\atelscr00409.bin";
 		case 0x2AC5D007:
 			return "battleai\\atelscr00410.bin";
 		case 0x17A5F9B7:
@@ -382,10 +730,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00412.bin";
 		case 0x6D65AAD7:
 			return "battleai\\atelscr00413.bin";
+		case 0xDF4576C7:
+			return "battleai\\atelscr00414.bin";
+		case 0xE2255F77:
+			return "battleai\\atelscr00415.bin";
+		case 0xA58525A7:
+			return "battleai\\atelscr00416.bin";
+		case 0x98E50C17:
+			return "battleai\\atelscr00417.bin";
 		case 0x1AB59BC6:
 			return "battleai\\atelscr00418.bin";
 		case 0x27D5B276:
 			return "battleai\\atelscr00419.bin";
+		case 0xAC51A2A9:
+			return "battleai\\atelscr00420.bin";
+		case 0x91318B19:
+			return "battleai\\atelscr00421.bin";
+		case 0xD691F1C9:
+			return "battleai\\atelscr00422.bin";
+		case 0xEBF1D879:
+			return "battleai\\atelscr00423.bin";
 		case 0x59D10469:
 			return "battleai\\atelscr00424.bin";
 		case 0x64B12DD9:
@@ -394,6 +758,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00426.bin";
 		case 0x1E717EB9:
 			return "battleai\\atelscr00427.bin";
+		case 0x9C21E968:
+			return "battleai\\atelscr00428.bin";
+		case 0xA141C0D8:
+			return "battleai\\atelscr00429.bin";
 		case 0x670D710C:
 			return "battleai\\atelscr00430.bin";
 		case 0x5A6D58BC:
@@ -402,6 +770,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00432.bin";
 		case 0x20AD0BDC:
 			return "battleai\\atelscr00433.bin";
+		case 0x928DD7CC:
+			return "battleai\\atelscr00434.bin";
+		case 0xAFEDFE7C:
+			return "battleai\\atelscr00435.bin";
+		case 0xE84D84AC:
+			return "battleai\\atelscr00436.bin";
+		case 0xD52DAD1C:
+			return "battleai\\atelscr00437.bin";
 		case 0x577D3ACD:
 			return "battleai\\atelscr00438.bin";
 		case 0x6A1D137D:
@@ -414,10 +790,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00442.bin";
 		case 0x3DA83B64:
 			return "battleai\\atelscr00443.bin";
+		case 0x8F88E774:
+			return "battleai\\atelscr00444.bin";
+		case 0xB2E8CEC4:
+			return "battleai\\atelscr00445.bin";
+		case 0xF548B414:
+			return "battleai\\atelscr00446.bin";
+		case 0xC8289DA4:
+			return "battleai\\atelscr00447.bin";
 		case 0x4A780A75:
 			return "battleai\\atelscr00448.bin";
 		case 0x771823C5:
 			return "battleai\\atelscr00449.bin";
+		case 0xB1549211:
+			return "battleai\\atelscr00450.bin";
+		case 0x8C34BBA1:
+			return "battleai\\atelscr00451.bin";
+		case 0xCB94C171:
+			return "battleai\\atelscr00452.bin";
+		case 0xF6F4E8C1:
+			return "battleai\\atelscr00453.bin";
 		case 0x44D434D1:
 			return "battleai\\atelscr00454.bin";
 		case 0x79B41D61:
@@ -426,6 +818,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00456.bin";
 		case 0x3744E01:
 			return "battleai\\atelscr00457.bin";
+		case 0x8124D9D0:
+			return "battleai\\atelscr00458.bin";
+		case 0xBC44F060:
+			return "battleai\\atelscr00459.bin";
 		case 0x37C0E0BF:
 			return "battleai\\atelscr00460.bin";
 		case 0xAA0C90F:
@@ -434,16 +830,46 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00462.bin";
 		case 0x70609A6F:
 			return "battleai\\atelscr00463.bin";
+		case 0xC240467F:
+			return "battleai\\atelscr00464.bin";
+		case 0xFF206FCF:
+			return "battleai\\atelscr00465.bin";
+		case 0xB880151F:
+			return "battleai\\atelscr00466.bin";
+		case 0x85E03CAF:
+			return "battleai\\atelscr00467.bin";
 		case 0x7B0AB7E:
 			return "battleai\\atelscr00468.bin";
 		case 0x3AD082CE:
 			return "battleai\\atelscr00469.bin";
+		case 0xFC9C331A:
+			return "battleai\\atelscr00470.bin";
+		case 0xC1FC1AAA:
+			return "battleai\\atelscr00471.bin";
+		case 0x865C607A:
+			return "battleai\\atelscr00472.bin";
+		case 0xBB3C49CA:
+			return "battleai\\atelscr00473.bin";
 		case 0x91C95DA:
 			return "battleai\\atelscr00474.bin";
+		case 0xC52A0EBF:
+			return "battleai\\atelscr00485.bin";
+		case 0x828A746F:
+			return "battleai\\atelscr00486.bin";
+		case 0xBFEA5DDF:
+			return "battleai\\atelscr00487.bin";
 		case 0x3DBACA0E:
 			return "battleai\\atelscr00488.bin";
 		case 0xDAE3BE:
 			return "battleai\\atelscr00489.bin";
+		case 0xC696526A:
+			return "battleai\\atelscr00490.bin";
+		case 0xFBF67BDA:
+			return "battleai\\atelscr00491.bin";
+		case 0xBC56010A:
+			return "battleai\\atelscr00492.bin";
+		case 0x813628BA:
+			return "battleai\\atelscr00493.bin";
 		case 0x3316F4AA:
 			return "battleai\\atelscr00494.bin";
 		case 0xE76DD1A:
@@ -452,16 +878,34 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00496.bin";
 		case 0x74B68E7A:
 			return "battleai\\atelscr00497.bin";
+		case 0xF6E619AB:
+			return "battleai\\atelscr00498.bin";
 		case 0x7A8E21A6:
 			return "battleai\\atelscr00501.bin";
 		case 0x3D2E5B76:
 			return "battleai\\atelscr00502.bin";
 		case 0x4E72C6:
 			return "battleai\\atelscr00503.bin";
+		case 0xB26EAED6:
+			return "battleai\\atelscr00504.bin";
+		case 0x8F0E8766:
+			return "battleai\\atelscr00505.bin";
+		case 0xC8AEFDB6:
+			return "battleai\\atelscr00506.bin";
+		case 0xF5CED406:
+			return "battleai\\atelscr00507.bin";
 		case 0x779E43D7:
 			return "battleai\\atelscr00508.bin";
 		case 0x4AFE6A67:
 			return "battleai\\atelscr00509.bin";
+		case 0x8CB2DBB3:
+			return "battleai\\atelscr00510.bin";
+		case 0xB1D2F203:
+			return "battleai\\atelscr00511.bin";
+		case 0xF67288D3:
+			return "battleai\\atelscr00512.bin";
+		case 0xCB12A163:
+			return "battleai\\atelscr00513.bin";
 		case 0x79327D73:
 			return "battleai\\atelscr00514.bin";
 		case 0x445254C3:
@@ -470,6 +914,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00516.bin";
 		case 0x3E9207A3:
 			return "battleai\\atelscr00517.bin";
+		case 0xBCC29072:
+			return "battleai\\atelscr00518.bin";
+		case 0x81A2B9C2:
+			return "battleai\\atelscr00519.bin";
 		case 0xA26A91D:
 			return "battleai\\atelscr00520.bin";
 		case 0x374680AD:
@@ -486,10 +934,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00602.bin";
 		case 0x31A6685B:
 			return "battleai\\atelscr00603.bin";
+		case 0x8386B44B:
+			return "battleai\\atelscr00604.bin";
+		case 0xBEE69DFB:
+			return "battleai\\atelscr00605.bin";
+		case 0xF946E72B:
+			return "battleai\\atelscr00606.bin";
+		case 0xC426CE9B:
+			return "battleai\\atelscr00607.bin";
 		case 0x4676594A:
 			return "battleai\\atelscr00608.bin";
 		case 0x7B1670FA:
 			return "battleai\\atelscr00609.bin";
+		case 0xBD5AC12E:
+			return "battleai\\atelscr00610.bin";
+		case 0x803AE89E:
+			return "battleai\\atelscr00611.bin";
+		case 0xC79A924E:
+			return "battleai\\atelscr00612.bin";
+		case 0xFAFABBFE:
+			return "battleai\\atelscr00613.bin";
 		case 0x48DA67EE:
 			return "battleai\\atelscr00614.bin";
 		case 0x75BA4E5E:
@@ -498,6 +962,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00616.bin";
 		case 0xF7A1D3E:
 			return "battleai\\atelscr00617.bin";
+		case 0x8D2A8AEF:
+			return "battleai\\atelscr00618.bin";
+		case 0xB04AA35F:
+			return "battleai\\atelscr00619.bin";
 		case 0x3BCEB380:
 			return "battleai\\atelscr00620.bin";
 		case 0x6AE9A30:
@@ -506,10 +974,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00622.bin";
 		case 0x7C6EC950:
 			return "battleai\\atelscr00623.bin";
+		case 0xCE4E1540:
+			return "battleai\\atelscr00624.bin";
+		case 0xF32E3CF0:
+			return "battleai\\atelscr00625.bin";
+		case 0xB48E4620:
+			return "battleai\\atelscr00626.bin";
+		case 0x89EE6F90:
+			return "battleai\\atelscr00627.bin";
 		case 0xBBEF841:
 			return "battleai\\atelscr00628.bin";
 		case 0x36DED1F1:
 			return "battleai\\atelscr00629.bin";
+		case 0xF0926025:
+			return "battleai\\atelscr00630.bin";
+		case 0xCDF24995:
+			return "battleai\\atelscr00631.bin";
+		case 0x8A523345:
+			return "battleai\\atelscr00632.bin";
+		case 0xB7321AF5:
+			return "battleai\\atelscr00633.bin";
 		case 0x512C6E5:
 			return "battleai\\atelscr00634.bin";
 		case 0x3872EF55:
@@ -518,6 +1002,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00636.bin";
 		case 0x42B2BC35:
 			return "battleai\\atelscr00637.bin";
+		case 0xC0E22BE4:
+			return "battleai\\atelscr00638.bin";
+		case 0xFD820254:
+			return "battleai\\atelscr00639.bin";
+		case 0xED97509D:
+			return "battleai\\atelscr00640.bin";
+		case 0xD0F7792D:
+			return "battleai\\atelscr00641.bin";
+		case 0x975703FD:
+			return "battleai\\atelscr00642.bin";
+		case 0xAA372A4D:
+			return "battleai\\atelscr00643.bin";
 		case 0x1817F65D:
 			return "battleai\\atelscr00644.bin";
 		case 0x2577DFED:
@@ -526,6 +1022,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00646.bin";
 		case 0x5FB78C8D:
 			return "battleai\\atelscr00647.bin";
+		case 0xDDE71B5C:
+			return "battleai\\atelscr00648.bin";
+		case 0xE08732EC:
+			return "battleai\\atelscr00649.bin";
 		case 0x26CB8338:
 			return "battleai\\atelscr00650.bin";
 		case 0x1BABAA88:
@@ -534,10 +1034,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00652.bin";
 		case 0x616BF9E8:
 			return "battleai\\atelscr00653.bin";
+		case 0xD34B25F8:
+			return "battleai\\atelscr00654.bin";
+		case 0xEE2B0C48:
+			return "battleai\\atelscr00655.bin";
+		case 0xA98B7698:
+			return "battleai\\atelscr00656.bin";
+		case 0x94EB5F28:
+			return "battleai\\atelscr00657.bin";
 		case 0x16BBC8F9:
 			return "battleai\\atelscr00658.bin";
 		case 0x2BDBE149:
 			return "battleai\\atelscr00659.bin";
+		case 0xA05FF196:
+			return "battleai\\atelscr00660.bin";
+		case 0x9D3FD826:
+			return "battleai\\atelscr00661.bin";
+		case 0xDA9FA2F6:
+			return "battleai\\atelscr00662.bin";
+		case 0xE7FF8B46:
+			return "battleai\\atelscr00663.bin";
 		case 0x55DF5756:
 			return "battleai\\atelscr00664.bin";
 		case 0x68BF7EE6:
@@ -546,6 +1062,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00666.bin";
 		case 0x127F2D86:
 			return "battleai\\atelscr00667.bin";
+		case 0x902FBA57:
+			return "battleai\\atelscr00668.bin";
+		case 0xAD4F93E7:
+			return "battleai\\atelscr00669.bin";
 		case 0x6B032233:
 			return "battleai\\atelscr00670.bin";
 		case 0x56630B83:
@@ -554,10 +1074,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00672.bin";
 		case 0x2CA358E3:
 			return "battleai\\atelscr00673.bin";
+		case 0x9E8384F3:
+			return "battleai\\atelscr00674.bin";
+		case 0xA3E3AD43:
+			return "battleai\\atelscr00675.bin";
+		case 0xE443D793:
+			return "battleai\\atelscr00676.bin";
+		case 0xD923FE23:
+			return "battleai\\atelscr00677.bin";
 		case 0x5B7369F2:
 			return "battleai\\atelscr00678.bin";
 		case 0x66134042:
 			return "battleai\\atelscr00679.bin";
+		case 0x9A5590E6:
+			return "battleai\\atelscr00680.bin";
+		case 0xA735B956:
+			return "battleai\\atelscr00681.bin";
+		case 0xE095C386:
+			return "battleai\\atelscr00682.bin";
+		case 0xDDF5EA36:
+			return "battleai\\atelscr00683.bin";
 		case 0x6FD53626:
 			return "battleai\\atelscr00684.bin";
 		case 0x52B51F96:
@@ -566,6 +1102,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00686.bin";
 		case 0x28754CF6:
 			return "battleai\\atelscr00687.bin";
+		case 0xAA25DB27:
+			return "battleai\\atelscr00688.bin";
+		case 0x9745F297:
+			return "battleai\\atelscr00689.bin";
 		case 0x51094343:
 			return "battleai\\atelscr00690.bin";
 		case 0x6C696AF3:
@@ -574,10 +1114,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00692.bin";
 		case 0x16A93993:
 			return "battleai\\atelscr00693.bin";
+		case 0xA489E583:
+			return "battleai\\atelscr00694.bin";
+		case 0x99E9CC33:
+			return "battleai\\atelscr00695.bin";
+		case 0xDE49B6E3:
+			return "battleai\\atelscr00696.bin";
+		case 0xE3299F53:
+			return "battleai\\atelscr00697.bin";
 		case 0x61790882:
 			return "battleai\\atelscr00698.bin";
 		case 0x5C192132:
 			return "battleai\\atelscr00699.bin";
+		case 0xD071193F:
+			return "battleai\\atelscr00700.bin";
+		case 0xED11308F:
+			return "battleai\\atelscr00701.bin";
+		case 0xAAB14A5F:
+			return "battleai\\atelscr00702.bin";
+		case 0x97D163EF:
+			return "battleai\\atelscr00703.bin";
 		case 0x25F1BFFF:
 			return "battleai\\atelscr00704.bin";
 		case 0x1891964F:
@@ -586,6 +1142,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00706.bin";
 		case 0x6251C52F:
 			return "battleai\\atelscr00707.bin";
+		case 0xE00152FE:
+			return "battleai\\atelscr00708.bin";
+		case 0xDD617B4E:
+			return "battleai\\atelscr00709.bin";
 		case 0x1B2DCA9A:
 			return "battleai\\atelscr00710.bin";
 		case 0x264DE32A:
@@ -594,10 +1154,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00712.bin";
 		case 0x5C8DB04A:
 			return "battleai\\atelscr00713.bin";
+		case 0xEEAD6C5A:
+			return "battleai\\atelscr00714.bin";
+		case 0xD3CD45EA:
+			return "battleai\\atelscr00715.bin";
+		case 0x946D3F3A:
+			return "battleai\\atelscr00716.bin";
+		case 0xA90D168A:
+			return "battleai\\atelscr00717.bin";
 		case 0x2B5D815B:
 			return "battleai\\atelscr00718.bin";
 		case 0x163DA8EB:
 			return "battleai\\atelscr00719.bin";
+		case 0x9DB9B834:
+			return "battleai\\atelscr00720.bin";
+		case 0xA0D99184:
+			return "battleai\\atelscr00721.bin";
+		case 0xE779EB54:
+			return "battleai\\atelscr00722.bin";
+		case 0xDA19C2E4:
+			return "battleai\\atelscr00723.bin";
 		case 0x68391EF4:
 			return "battleai\\atelscr00724.bin";
 		case 0x55593744:
@@ -606,6 +1182,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00726.bin";
 		case 0x2F996424:
 			return "battleai\\atelscr00727.bin";
+		case 0xADC9F3F5:
+			return "battleai\\atelscr00728.bin";
+		case 0x90A9DA45:
+			return "battleai\\atelscr00729.bin";
 		case 0x56E56B91:
 			return "battleai\\atelscr00730.bin";
 		case 0x6B854221:
@@ -614,6 +1194,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00732.bin";
 		case 0x11451141:
 			return "battleai\\atelscr00733.bin";
+		case 0xA365CD51:
+			return "battleai\\atelscr00734.bin";
+		case 0x9E05E4E1:
+			return "battleai\\atelscr00735.bin";
+		case 0xD9A59E31:
+			return "battleai\\atelscr00736.bin";
+		case 0xE4C5B781:
+			return "battleai\\atelscr00737.bin";
 		case 0x66952050:
 			return "battleai\\atelscr00738.bin";
 		case 0x5BF509E0:
@@ -626,10 +1214,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00742.bin";
 		case 0xC4021F9:
 			return "battleai\\atelscr00743.bin";
+		case 0xBE60FDE9:
+			return "battleai\\atelscr00744.bin";
+		case 0x8300D459:
+			return "battleai\\atelscr00745.bin";
+		case 0xC4A0AE89:
+			return "battleai\\atelscr00746.bin";
+		case 0xF9C08739:
+			return "battleai\\atelscr00747.bin";
 		case 0x7B9010E8:
 			return "battleai\\atelscr00748.bin";
 		case 0x46F03958:
 			return "battleai\\atelscr00749.bin";
+		case 0x80BC888C:
+			return "battleai\\atelscr00750.bin";
+		case 0xBDDCA13C:
+			return "battleai\\atelscr00751.bin";
+		case 0xFA7CDBEC:
+			return "battleai\\atelscr00752.bin";
+		case 0xC71CF25C:
+			return "battleai\\atelscr00753.bin";
 		case 0x753C2E4C:
 			return "battleai\\atelscr00754.bin";
 		case 0x485C07FC:
@@ -638,6 +1242,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00756.bin";
 		case 0x329C549C:
 			return "battleai\\atelscr00757.bin";
+		case 0xB0CCC34D:
+			return "battleai\\atelscr00758.bin";
+		case 0x8DACEAFD:
+			return "battleai\\atelscr00759.bin";
 		case 0x628FA22:
 			return "battleai\\atelscr00760.bin";
 		case 0x3B48D392:
@@ -646,10 +1254,20 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00762.bin";
 		case 0x418880F2:
 			return "battleai\\atelscr00763.bin";
+		case 0xF3A85CE2:
+			return "battleai\\atelscr00764.bin";
+		case 0xCEC87552:
+			return "battleai\\atelscr00765.bin";
+		case 0x89680F82:
+			return "battleai\\atelscr00766.bin";
+		case 0xB4082632:
+			return "battleai\\atelscr00767.bin";
 		case 0x3658B1E3:
 			return "battleai\\atelscr00768.bin";
 		case 0xB389853:
 			return "battleai\\atelscr00769.bin";
+		case 0xCD742987:
+			return "battleai\\atelscr00770.bin";
 		case 0x3C229B52:
 			return "battleai\\atelscr00780.bin";
 		case 0x142B2E2:
@@ -658,10 +1276,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00782.bin";
 		case 0x7B82E182:
 			return "battleai\\atelscr00783.bin";
+		case 0xC9A23D92:
+			return "battleai\\atelscr00784.bin";
+		case 0xF4C21422:
+			return "battleai\\atelscr00785.bin";
+		case 0xB3626EF2:
+			return "battleai\\atelscr00786.bin";
+		case 0x8E024742:
+			return "battleai\\atelscr00787.bin";
 		case 0xC52D093:
 			return "battleai\\atelscr00788.bin";
 		case 0x3132F923:
 			return "battleai\\atelscr00789.bin";
+		case 0xF77E48F7:
+			return "battleai\\atelscr00790.bin";
+		case 0xCA1E6147:
+			return "battleai\\atelscr00791.bin";
+		case 0x8DBE1B97:
+			return "battleai\\atelscr00792.bin";
+		case 0xB0DE3227:
+			return "battleai\\atelscr00793.bin";
 		case 0x2FEEE37:
 			return "battleai\\atelscr00794.bin";
 		case 0x3F9EC787:
@@ -670,6 +1304,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00796.bin";
 		case 0x455E94E7:
 			return "battleai\\atelscr00797.bin";
+		case 0xC70E0336:
+			return "battleai\\atelscr00798.bin";
+		case 0xFA6E2A86:
+			return "battleai\\atelscr00799.bin";
 		case 0x263969D6:
 			return "battleai\\atelscr00800.bin";
 		case 0x1B594066:
@@ -678,10 +1316,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00802.bin";
 		case 0x61991306:
 			return "battleai\\atelscr00803.bin";
+		case 0xD3B9CF16:
+			return "battleai\\atelscr00804.bin";
+		case 0xEED9E6A6:
+			return "battleai\\atelscr00805.bin";
+		case 0xA9799C76:
+			return "battleai\\atelscr00806.bin";
+		case 0x9419B5C6:
+			return "battleai\\atelscr00807.bin";
 		case 0x16492217:
 			return "battleai\\atelscr00808.bin";
 		case 0x2B290BA7:
 			return "battleai\\atelscr00809.bin";
+		case 0xED65BA73:
+			return "battleai\\atelscr00810.bin";
+		case 0xD00593C3:
+			return "battleai\\atelscr00811.bin";
+		case 0x97A5E913:
+			return "battleai\\atelscr00812.bin";
+		case 0xAAC5C0A3:
+			return "battleai\\atelscr00813.bin";
 		case 0x18E51CB3:
 			return "battleai\\atelscr00814.bin";
 		case 0x25853503:
@@ -690,6 +1344,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00816.bin";
 		case 0x5F456663:
 			return "battleai\\atelscr00817.bin";
+		case 0xDD15F1B2:
+			return "battleai\\atelscr00818.bin";
+		case 0xE075D802:
+			return "battleai\\atelscr00819.bin";
 		case 0x6BF1C8DD:
 			return "battleai\\atelscr00820.bin";
 		case 0x5691E16D:
@@ -698,10 +1356,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00822.bin";
 		case 0x2C51B20D:
 			return "battleai\\atelscr00823.bin";
+		case 0x9E716E1D:
+			return "battleai\\atelscr00824.bin";
+		case 0xA31147AD:
+			return "battleai\\atelscr00825.bin";
+		case 0xE4B13D7D:
+			return "battleai\\atelscr00826.bin";
+		case 0xD9D114CD:
+			return "battleai\\atelscr00827.bin";
 		case 0x5B81831C:
 			return "battleai\\atelscr00828.bin";
 		case 0x66E1AAAC:
 			return "battleai\\atelscr00829.bin";
+		case 0xA0AD1B78:
+			return "battleai\\atelscr00830.bin";
+		case 0x9DCD32C8:
+			return "battleai\\atelscr00831.bin";
+		case 0xDA6D4818:
+			return "battleai\\atelscr00832.bin";
+		case 0xE70D61A8:
+			return "battleai\\atelscr00833.bin";
 		case 0x552DBDB8:
 			return "battleai\\atelscr00834.bin";
 		case 0x684D9408:
@@ -710,6 +1384,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00836.bin";
 		case 0x128DC768:
 			return "battleai\\atelscr00837.bin";
+		case 0x90DD50B9:
+			return "battleai\\atelscr00838.bin";
+		case 0xADBD7909:
+			return "battleai\\atelscr00839.bin";
+		case 0xBDA82BC0:
+			return "battleai\\atelscr00840.bin";
+		case 0xBD2E4BD2:
+			return "battleai\\atelscr00901.bin";
+		case 0xFA8E3102:
+			return "battleai\\atelscr00902.bin";
+		case 0xC7EE18B2:
+			return "battleai\\atelscr00903.bin";
 		case 0x75CEC4A2:
 			return "battleai\\atelscr00904.bin";
 		case 0x48AEED12:
@@ -718,6 +1404,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00906.bin";
 		case 0x326EBE72:
 			return "battleai\\atelscr00907.bin";
+		case 0xB03E29A3:
+			return "battleai\\atelscr00908.bin";
+		case 0x8D5E0013:
+			return "battleai\\atelscr00909.bin";
 		case 0x4B12B1C7:
 			return "battleai\\atelscr00910.bin";
 		case 0x76729877:
@@ -726,10 +1416,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00912.bin";
 		case 0xCB2CB17:
 			return "battleai\\atelscr00913.bin";
+		case 0xBE921707:
+			return "battleai\\atelscr00914.bin";
+		case 0x83F23EB7:
+			return "battleai\\atelscr00915.bin";
+		case 0xC4524467:
+			return "battleai\\atelscr00916.bin";
+		case 0xF9326DD7:
+			return "battleai\\atelscr00917.bin";
 		case 0x7B62FA06:
 			return "battleai\\atelscr00918.bin";
 		case 0x4602D3B6:
 			return "battleai\\atelscr00919.bin";
+		case 0xCD86C369:
+			return "battleai\\atelscr00920.bin";
+		case 0xF0E6EAD9:
+			return "battleai\\atelscr00921.bin";
+		case 0xB7469009:
+			return "battleai\\atelscr00922.bin";
+		case 0x8A26B9B9:
+			return "battleai\\atelscr00923.bin";
 		case 0x380665A9:
 			return "battleai\\atelscr00924.bin";
 		case 0x5664C19:
@@ -738,6 +1444,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00926.bin";
 		case 0x7FA61F79:
 			return "battleai\\atelscr00927.bin";
+		case 0xFDF688A8:
+			return "battleai\\atelscr00928.bin";
+		case 0xC096A118:
+			return "battleai\\atelscr00929.bin";
 		case 0x6DA10CC:
 			return "battleai\\atelscr00930.bin";
 		case 0x3BBA397C:
@@ -746,6 +1456,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00932.bin";
 		case 0x417A6A1C:
 			return "battleai\\atelscr00933.bin";
+		case 0xF35AB60C:
+			return "battleai\\atelscr00934.bin";
+		case 0xCE3A9FBC:
+			return "battleai\\atelscr00935.bin";
+		case 0x899AE56C:
+			return "battleai\\atelscr00936.bin";
+		case 0xB4FACCDC:
+			return "battleai\\atelscr00937.bin";
 		case 0x36AA5B0D:
 			return "battleai\\atelscr00938.bin";
 		case 0xBCA72BD:
@@ -758,6 +1476,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00942.bin";
 		case 0x5C7F5AA4:
 			return "battleai\\atelscr00943.bin";
+		case 0xEE5F86B4:
+			return "battleai\\atelscr00944.bin";
+		case 0xD33FAF04:
+			return "battleai\\atelscr00945.bin";
+		case 0x949FD5D4:
+			return "battleai\\atelscr00946.bin";
+		case 0xEDE3DA61:
+			return "battleai\\atelscr00951.bin";
+		case 0xAA43A0B1:
+			return "battleai\\atelscr00952.bin";
+		case 0x97238901:
+			return "battleai\\atelscr00953.bin";
 		case 0x25035511:
 			return "battleai\\atelscr00954.bin";
 		case 0x18637CA1:
@@ -766,6 +1496,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00956.bin";
 		case 0x62A32FC1:
 			return "battleai\\atelscr00957.bin";
+		case 0xE0F3B810:
+			return "battleai\\atelscr00958.bin";
+		case 0xDD9391A0:
+			return "battleai\\atelscr00959.bin";
 		case 0x5617817F:
 			return "battleai\\atelscr00960.bin";
 		case 0x6B77A8CF:
@@ -774,10 +1508,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00962.bin";
 		case 0x11B7FBAF:
 			return "battleai\\atelscr00963.bin";
+		case 0xA39727BF:
+			return "battleai\\atelscr00964.bin";
+		case 0x9EF70E0F:
+			return "battleai\\atelscr00965.bin";
+		case 0xD95774DF:
+			return "battleai\\atelscr00966.bin";
+		case 0xE4375D6F:
+			return "battleai\\atelscr00967.bin";
 		case 0x6667CABE:
 			return "battleai\\atelscr00968.bin";
 		case 0x5B07E30E:
 			return "battleai\\atelscr00969.bin";
+		case 0x9D4B52DA:
+			return "battleai\\atelscr00970.bin";
+		case 0xA02B7B6A:
+			return "battleai\\atelscr00971.bin";
+		case 0xE78B01BA:
+			return "battleai\\atelscr00972.bin";
+		case 0xDAEB280A:
+			return "battleai\\atelscr00973.bin";
 		case 0x68CBF41A:
 			return "battleai\\atelscr00974.bin";
 		case 0x55ABDDAA:
@@ -786,6 +1536,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00976.bin";
 		case 0x2F6B8ECA:
 			return "battleai\\atelscr00977.bin";
+		case 0xAD3B191B:
+			return "battleai\\atelscr00978.bin";
+		case 0x905B30AB:
+			return "battleai\\atelscr00979.bin";
 		case 0x6C1DE00F:
 			return "battleai\\atelscr00980.bin";
 		case 0x517DC9BF:
@@ -794,6 +1548,22 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr00982.bin";
 		case 0x2BBD9ADF:
 			return "battleai\\atelscr00983.bin";
+		case 0x999D46CF:
+			return "battleai\\atelscr00984.bin";
+		case 0xA4FD6F7F:
+			return "battleai\\atelscr00985.bin";
+		case 0xE35D15AF:
+			return "battleai\\atelscr00986.bin";
+		case 0xDE3D3C1F:
+			return "battleai\\atelscr00987.bin";
+		case 0xD97C272F:
+			return "battleai\\atelscr01000.bin";
+		case 0xE41C0E9F:
+			return "battleai\\atelscr01001.bin";
+		case 0xD870E70B:
+			return "battleai\\atelscr01282.bin";
+		case 0xE510CEBB:
+			return "battleai\\atelscr01283.bin";
 		case 0x573012AB:
 			return "battleai\\atelscr01284.bin";
 		case 0x6A503B1B:
@@ -802,6 +1572,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01286.bin";
 		case 0x1090687B:
 			return "battleai\\atelscr01287.bin";
+		case 0x92C0FFAA:
+			return "battleai\\atelscr01288.bin";
+		case 0xAFA0D61A:
+			return "battleai\\atelscr01289.bin";
 		case 0x69EC67CE:
 			return "battleai\\atelscr01290.bin";
 		case 0x548C4E7E:
@@ -810,10 +1584,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01292.bin";
 		case 0x2E4C1D1E:
 			return "battleai\\atelscr01293.bin";
+		case 0x9C6CC10E:
+			return "battleai\\atelscr01294.bin";
+		case 0xA10CE8BE:
+			return "battleai\\atelscr01295.bin";
+		case 0xE6AC926E:
+			return "battleai\\atelscr01296.bin";
+		case 0xDBCCBBDE:
+			return "battleai\\atelscr01297.bin";
 		case 0x599C2C0F:
 			return "battleai\\atelscr01298.bin";
 		case 0x64FC05BF:
 			return "battleai\\atelscr01299.bin";
+		case 0xE8943DB2:
+			return "battleai\\atelscr01300.bin";
+		case 0xD5F41402:
+			return "battleai\\atelscr01301.bin";
+		case 0x92546ED2:
+			return "battleai\\atelscr01302.bin";
+		case 0xAF344762:
+			return "battleai\\atelscr01303.bin";
 		case 0x1D149B72:
 			return "battleai\\atelscr01304.bin";
 		case 0x2074B2C2:
@@ -822,6 +1612,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01306.bin";
 		case 0x5AB4E1A2:
 			return "battleai\\atelscr01307.bin";
+		case 0xD8E47673:
+			return "battleai\\atelscr01308.bin";
+		case 0xE5845FC3:
+			return "battleai\\atelscr01309.bin";
 		case 0x23C8EE17:
 			return "battleai\\atelscr01310.bin";
 		case 0x1EA8C7A7:
@@ -830,10 +1624,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01312.bin";
 		case 0x646894C7:
 			return "battleai\\atelscr01313.bin";
+		case 0xD64848D7:
+			return "battleai\\atelscr01314.bin";
+		case 0xEB286167:
+			return "battleai\\atelscr01315.bin";
+		case 0xAC881BB7:
+			return "battleai\\atelscr01316.bin";
+		case 0x91E83207:
+			return "battleai\\atelscr01317.bin";
 		case 0x13B8A5D6:
 			return "battleai\\atelscr01318.bin";
 		case 0x2ED88C66:
 			return "battleai\\atelscr01319.bin";
+		case 0xA55C9CB9:
+			return "battleai\\atelscr01320.bin";
+		case 0x983CB509:
+			return "battleai\\atelscr01321.bin";
+		case 0xDF9CCFD9:
+			return "battleai\\atelscr01322.bin";
+		case 0xE2FCE669:
+			return "battleai\\atelscr01323.bin";
 		case 0x50DC3A79:
 			return "battleai\\atelscr01324.bin";
 		case 0x6DBC13C9:
@@ -842,6 +1652,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01326.bin";
 		case 0x177C40A9:
 			return "battleai\\atelscr01327.bin";
+		case 0x952CD778:
+			return "battleai\\atelscr01328.bin";
+		case 0xA84CFEC8:
+			return "battleai\\atelscr01329.bin";
 		case 0x6E004F1C:
 			return "battleai\\atelscr01330.bin";
 		case 0x536066AC:
@@ -850,6 +1664,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01332.bin";
 		case 0x29A035CC:
 			return "battleai\\atelscr01333.bin";
+		case 0x9B80E9DC:
+			return "battleai\\atelscr01334.bin";
+		case 0xA6E0C06C:
+			return "battleai\\atelscr01335.bin";
+		case 0xE140BABC:
+			return "battleai\\atelscr01336.bin";
+		case 0xDC20930C:
+			return "battleai\\atelscr01337.bin";
 		case 0x5E7004DD:
 			return "battleai\\atelscr01338.bin";
 		case 0x63102D6D:
@@ -862,10 +1684,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01342.bin";
 		case 0x34A50574:
 			return "battleai\\atelscr01343.bin";
+		case 0x8685D964:
+			return "battleai\\atelscr01344.bin";
+		case 0xBBE5F0D4:
+			return "battleai\\atelscr01345.bin";
+		case 0xFC458A04:
+			return "battleai\\atelscr01346.bin";
+		case 0xC125A3B4:
+			return "battleai\\atelscr01347.bin";
 		case 0x43753465:
 			return "battleai\\atelscr01348.bin";
 		case 0x7E151DD5:
 			return "battleai\\atelscr01349.bin";
+		case 0xB859AC01:
+			return "battleai\\atelscr01350.bin";
+		case 0x853985B1:
+			return "battleai\\atelscr01351.bin";
+		case 0xC299FF61:
+			return "battleai\\atelscr01352.bin";
+		case 0xFFF9D6D1:
+			return "battleai\\atelscr01353.bin";
 		case 0x4DD90AC1:
 			return "battleai\\atelscr01354.bin";
 		case 0x70B92371:
@@ -874,6 +1712,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01356.bin";
 		case 0xA797011:
 			return "battleai\\atelscr01357.bin";
+		case 0x8829E7C0:
+			return "battleai\\atelscr01358.bin";
+		case 0xB549CE70:
+			return "battleai\\atelscr01359.bin";
 		case 0x3ECDDEAF:
 			return "battleai\\atelscr01360.bin";
 		case 0x3ADF71F:
@@ -882,10 +1724,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01362.bin";
 		case 0x796DA47F:
 			return "battleai\\atelscr01363.bin";
+		case 0xCB4D786F:
+			return "battleai\\atelscr01364.bin";
+		case 0xF62D51DF:
+			return "battleai\\atelscr01365.bin";
+		case 0xB18D2B0F:
+			return "battleai\\atelscr01366.bin";
+		case 0x8CED02BF:
+			return "battleai\\atelscr01367.bin";
 		case 0xEBD956E:
 			return "battleai\\atelscr01368.bin";
 		case 0x33DDBCDE:
 			return "battleai\\atelscr01369.bin";
+		case 0xF5910D0A:
+			return "battleai\\atelscr01370.bin";
+		case 0xC8F124BA:
+			return "battleai\\atelscr01371.bin";
+		case 0x8F515E6A:
+			return "battleai\\atelscr01372.bin";
+		case 0xB23177DA:
+			return "battleai\\atelscr01373.bin";
 		case 0x11ABCA:
 			return "battleai\\atelscr01374.bin";
 		case 0x3D71827A:
@@ -894,6 +1752,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01376.bin";
 		case 0x47B1D11A:
 			return "battleai\\atelscr01377.bin";
+		case 0xC5E146CB:
+			return "battleai\\atelscr01378.bin";
+		case 0xF8816F7B:
+			return "battleai\\atelscr01379.bin";
 		case 0x4C7BFDF:
 			return "battleai\\atelscr01380.bin";
 		case 0x39A7966F:
@@ -902,10 +1764,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01382.bin";
 		case 0x4367C50F:
 			return "battleai\\atelscr01383.bin";
+		case 0xF147191F:
+			return "battleai\\atelscr01384.bin";
+		case 0xCC2730AF:
+			return "battleai\\atelscr01385.bin";
+		case 0x8B874A7F:
+			return "battleai\\atelscr01386.bin";
+		case 0xB6E763CF:
+			return "battleai\\atelscr01387.bin";
 		case 0x34B7F41E:
 			return "battleai\\atelscr01388.bin";
 		case 0x9D7DDAE:
 			return "battleai\\atelscr01389.bin";
+		case 0xCF9B6C7A:
+			return "battleai\\atelscr01390.bin";
+		case 0xF2FB45CA:
+			return "battleai\\atelscr01391.bin";
+		case 0xB55B3F1A:
+			return "battleai\\atelscr01392.bin";
+		case 0x883B16AA:
+			return "battleai\\atelscr01393.bin";
 		case 0x3A1BCABA:
 			return "battleai\\atelscr01394.bin";
 		case 0x77BE30A:
@@ -914,6 +1792,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01396.bin";
 		case 0x7DBBB06A:
 			return "battleai\\atelscr01397.bin";
+		case 0xFFEB27BB:
+			return "battleai\\atelscr01398.bin";
+		case 0xC28B0E0B:
+			return "battleai\\atelscr01399.bin";
 		case 0x2D33033C:
 			return "battleai\\atelscr01400.bin";
 		case 0x10532A8C:
@@ -922,10 +1804,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01402.bin";
 		case 0x6A9379EC:
 			return "battleai\\atelscr01403.bin";
+		case 0xD8B3A5FC:
+			return "battleai\\atelscr01404.bin";
+		case 0xE5D38C4C:
+			return "battleai\\atelscr01405.bin";
+		case 0xA273F69C:
+			return "battleai\\atelscr01406.bin";
+		case 0x9F13DF2C:
+			return "battleai\\atelscr01407.bin";
 		case 0x1D4348FD:
 			return "battleai\\atelscr01408.bin";
 		case 0x2023614D:
 			return "battleai\\atelscr01409.bin";
+		case 0xE66FD099:
+			return "battleai\\atelscr01410.bin";
+		case 0xDB0FF929:
+			return "battleai\\atelscr01411.bin";
+		case 0x9CAF83F9:
+			return "battleai\\atelscr01412.bin";
+		case 0xA1CFAA49:
+			return "battleai\\atelscr01413.bin";
 		case 0x13EF7659:
 			return "battleai\\atelscr01414.bin";
 		case 0x2E8F5FE9:
@@ -934,6 +1832,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01416.bin";
 		case 0x544F0C89:
 			return "battleai\\atelscr01417.bin";
+		case 0xD61F9B58:
+			return "battleai\\atelscr01418.bin";
+		case 0xB6242138:
+			return "battleai\\atelscr01501.bin";
+		case 0xF1845BE8:
+			return "battleai\\atelscr01502.bin";
+		case 0xCCE47258:
+			return "battleai\\atelscr01503.bin";
 		case 0x7EC4AE48:
 			return "battleai\\atelscr01504.bin";
 		case 0x43A487F8:
@@ -942,6 +1848,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01506.bin";
 		case 0x3964D498:
 			return "battleai\\atelscr01507.bin";
+		case 0xBB344349:
+			return "battleai\\atelscr01508.bin";
+		case 0x86546AF9:
+			return "battleai\\atelscr01509.bin";
 		case 0x4018DB2D:
 			return "battleai\\atelscr01510.bin";
 		case 0x7D78F29D:
@@ -950,10 +1860,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01512.bin";
 		case 0x7B8A1FD:
 			return "battleai\\atelscr01513.bin";
+		case 0xB5987DED:
+			return "battleai\\atelscr01514.bin";
+		case 0x88F8545D:
+			return "battleai\\atelscr01515.bin";
+		case 0xCF582E8D:
+			return "battleai\\atelscr01516.bin";
+		case 0xF238073D:
+			return "battleai\\atelscr01517.bin";
 		case 0x706890EC:
 			return "battleai\\atelscr01518.bin";
 		case 0x4D08B95C:
 			return "battleai\\atelscr01519.bin";
+		case 0xC68CA983:
+			return "battleai\\atelscr01520.bin";
+		case 0xFBEC8033:
+			return "battleai\\atelscr01521.bin";
+		case 0xBC4CFAE3:
+			return "battleai\\atelscr01522.bin";
+		case 0x812CD353:
+			return "battleai\\atelscr01523.bin";
 		case 0x330C0F43:
 			return "battleai\\atelscr01524.bin";
 		case 0xE6C26F3:
@@ -962,6 +1888,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01526.bin";
 		case 0x74AC7593:
 			return "battleai\\atelscr01527.bin";
+		case 0xF6FCE242:
+			return "battleai\\atelscr01528.bin";
+		case 0xCB9CCBF2:
+			return "battleai\\atelscr01529.bin";
 		case 0xDD07A26:
 			return "battleai\\atelscr01530.bin";
 		case 0x30B05396:
@@ -970,6 +1900,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01532.bin";
 		case 0x4A7000F6:
 			return "battleai\\atelscr01533.bin";
+		case 0xF850DCE6:
+			return "battleai\\atelscr01534.bin";
+		case 0xC530F556:
+			return "battleai\\atelscr01535.bin";
+		case 0x82908F86:
+			return "battleai\\atelscr01536.bin";
+		case 0xBFF0A636:
+			return "battleai\\atelscr01537.bin";
 		case 0x3DA031E7:
 			return "battleai\\atelscr01538.bin";
 		case 0xC01857:
@@ -982,10 +1920,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01542.bin";
 		case 0x5775304E:
 			return "battleai\\atelscr01543.bin";
+		case 0xE555EC5E:
+			return "battleai\\atelscr01544.bin";
+		case 0xD835C5EE:
+			return "battleai\\atelscr01545.bin";
+		case 0x9F95BF3E:
+			return "battleai\\atelscr01546.bin";
+		case 0xA2F5968E:
+			return "battleai\\atelscr01547.bin";
 		case 0x20A5015F:
 			return "battleai\\atelscr01548.bin";
 		case 0x1DC528EF:
 			return "battleai\\atelscr01549.bin";
+		case 0xDB89993B:
+			return "battleai\\atelscr01550.bin";
+		case 0xE6E9B08B:
+			return "battleai\\atelscr01551.bin";
+		case 0xA149CA5B:
+			return "battleai\\atelscr01552.bin";
+		case 0x9C29E3EB:
+			return "battleai\\atelscr01553.bin";
 		case 0x2E093FFB:
 			return "battleai\\atelscr01554.bin";
 		case 0x1369164B:
@@ -994,6 +1948,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01556.bin";
 		case 0x69A9452B:
 			return "battleai\\atelscr01557.bin";
+		case 0xEBF9D2FA:
+			return "battleai\\atelscr01558.bin";
+		case 0xD699FB4A:
+			return "battleai\\atelscr01559.bin";
 		case 0x5D1DEB95:
 			return "battleai\\atelscr01560.bin";
 		case 0x607DC225:
@@ -1002,10 +1960,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01562.bin";
 		case 0x1ABD9145:
 			return "battleai\\atelscr01563.bin";
+		case 0xA89D4D55:
+			return "battleai\\atelscr01564.bin";
+		case 0x95FD64E5:
+			return "battleai\\atelscr01565.bin";
+		case 0xD25D1E35:
+			return "battleai\\atelscr01566.bin";
+		case 0xEF3D3785:
+			return "battleai\\atelscr01567.bin";
 		case 0x6D6DA054:
 			return "battleai\\atelscr01568.bin";
 		case 0x500D89E4:
 			return "battleai\\atelscr01569.bin";
+		case 0x96413830:
+			return "battleai\\atelscr01570.bin";
+		case 0xAB211180:
+			return "battleai\\atelscr01571.bin";
+		case 0xEC816B50:
+			return "battleai\\atelscr01572.bin";
+		case 0xD1E142E0:
+			return "battleai\\atelscr01573.bin";
 		case 0x63C19EF0:
 			return "battleai\\atelscr01574.bin";
 		case 0x5EA1B740:
@@ -1014,6 +1988,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01576.bin";
 		case 0x2461E420:
 			return "battleai\\atelscr01577.bin";
+		case 0xA63173F1:
+			return "battleai\\atelscr01578.bin";
+		case 0x9B515A41:
+			return "battleai\\atelscr01579.bin";
 		case 0x67178AE5:
 			return "battleai\\atelscr01580.bin";
 		case 0x5A77A355:
@@ -1022,10 +2000,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01582.bin";
 		case 0x20B7F035:
 			return "battleai\\atelscr01583.bin";
+		case 0x92972C25:
+			return "battleai\\atelscr01584.bin";
+		case 0xAFF70595:
+			return "battleai\\atelscr01585.bin";
+		case 0xE8577F45:
+			return "battleai\\atelscr01586.bin";
+		case 0xD53756F5:
+			return "battleai\\atelscr01587.bin";
 		case 0x5767C124:
 			return "battleai\\atelscr01588.bin";
 		case 0x6A07E894:
 			return "battleai\\atelscr01589.bin";
+		case 0xAC4B5940:
+			return "battleai\\atelscr01590.bin";
+		case 0x912B70F0:
+			return "battleai\\atelscr01591.bin";
+		case 0xD68B0A20:
+			return "battleai\\atelscr01592.bin";
+		case 0xEBEB2390:
+			return "battleai\\atelscr01593.bin";
 		case 0x59CBFF80:
 			return "battleai\\atelscr01594.bin";
 		case 0x64ABD630:
@@ -1034,6 +2028,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01596.bin";
 		case 0x1E6B8550:
 			return "battleai\\atelscr01597.bin";
+		case 0x9C3B1281:
+			return "battleai\\atelscr01598.bin";
+		case 0xA15B3B31:
+			return "battleai\\atelscr01599.bin";
+		case 0xBAAC1215:
+			return "battleai\\atelscr01600.bin";
+		case 0x87CC3BA5:
+			return "battleai\\atelscr01601.bin";
+		case 0xC06C4175:
+			return "battleai\\atelscr01602.bin";
+		case 0xFD0C68C5:
+			return "battleai\\atelscr01603.bin";
 		case 0x4F2CB4D5:
 			return "battleai\\atelscr01604.bin";
 		case 0x724C9D65:
@@ -1042,6 +2048,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01606.bin";
 		case 0x88CCE05:
 			return "battleai\\atelscr01607.bin";
+		case 0x8ADC59D4:
+			return "battleai\\atelscr01608.bin";
+		case 0xB7BC7064:
+			return "battleai\\atelscr01609.bin";
 		case 0x71F0C1B0:
 			return "battleai\\atelscr01610.bin";
 		case 0x4C90E800:
@@ -1050,10 +2060,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01612.bin";
 		case 0x3650BB60:
 			return "battleai\\atelscr01613.bin";
+		case 0x84706770:
+			return "battleai\\atelscr01614.bin";
+		case 0xB9104EC0:
+			return "battleai\\atelscr01615.bin";
+		case 0xFEB03410:
+			return "battleai\\atelscr01616.bin";
+		case 0xC3D01DA0:
+			return "battleai\\atelscr01617.bin";
 		case 0x41808A71:
 			return "battleai\\atelscr01618.bin";
 		case 0x7CE0A3C1:
 			return "battleai\\atelscr01619.bin";
+		case 0xF764B31E:
+			return "battleai\\atelscr01620.bin";
+		case 0xCA049AAE:
+			return "battleai\\atelscr01621.bin";
+		case 0x8DA4E07E:
+			return "battleai\\atelscr01622.bin";
+		case 0xB0C4C9CE:
+			return "battleai\\atelscr01623.bin";
 		case 0x2E415DE:
 			return "battleai\\atelscr01624.bin";
 		case 0x3F843C6E:
@@ -1062,6 +2088,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01626.bin";
 		case 0x45446F0E:
 			return "battleai\\atelscr01627.bin";
+		case 0xC714F8DF:
+			return "battleai\\atelscr01628.bin";
+		case 0xFA74D16F:
+			return "battleai\\atelscr01629.bin";
 		case 0x3C3860BB:
 			return "battleai\\atelscr01630.bin";
 		case 0x158490B:
@@ -1070,6 +2100,14 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01632.bin";
 		case 0x7B981A6B:
 			return "battleai\\atelscr01633.bin";
+		case 0xC9B8C67B:
+			return "battleai\\atelscr01634.bin";
+		case 0xF4D8EFCB:
+			return "battleai\\atelscr01635.bin";
+		case 0xB378951B:
+			return "battleai\\atelscr01636.bin";
+		case 0x8E18BCAB:
+			return "battleai\\atelscr01637.bin";
 		case 0xC482B7A:
 			return "battleai\\atelscr01638.bin";
 		case 0x312802CA:
@@ -1082,10 +2120,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01642.bin";
 		case 0x669D2AD3:
 			return "battleai\\atelscr01643.bin";
+		case 0xD4BDF6C3:
+			return "battleai\\atelscr01644.bin";
+		case 0xE9DDDF73:
+			return "battleai\\atelscr01645.bin";
+		case 0xAE7DA5A3:
+			return "battleai\\atelscr01646.bin";
+		case 0x931D8C13:
+			return "battleai\\atelscr01647.bin";
 		case 0x114D1BC2:
 			return "battleai\\atelscr01648.bin";
 		case 0x2C2D3272:
 			return "battleai\\atelscr01649.bin";
+		case 0xEA6183A6:
+			return "battleai\\atelscr01650.bin";
+		case 0xD701AA16:
+			return "battleai\\atelscr01651.bin";
+		case 0x90A1D0C6:
+			return "battleai\\atelscr01652.bin";
+		case 0xADC1F976:
+			return "battleai\\atelscr01653.bin";
 		case 0x1FE12566:
 			return "battleai\\atelscr01654.bin";
 		case 0x22810CD6:
@@ -1094,6 +2148,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01656.bin";
 		case 0x58415FB6:
 			return "battleai\\atelscr01657.bin";
+		case 0xDA11C867:
+			return "battleai\\atelscr01658.bin";
+		case 0xE771E1D7:
+			return "battleai\\atelscr01659.bin";
 		case 0x6CF5F108:
 			return "battleai\\atelscr01660.bin";
 		case 0x5195D8B8:
@@ -1102,10 +2160,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01662.bin";
 		case 0x2B558BD8:
 			return "battleai\\atelscr01663.bin";
+		case 0x997557C8:
+			return "battleai\\atelscr01664.bin";
+		case 0xA4157E78:
+			return "battleai\\atelscr01665.bin";
+		case 0xE3B504A8:
+			return "battleai\\atelscr01666.bin";
+		case 0xDED52D18:
+			return "battleai\\atelscr01667.bin";
 		case 0x5C85BAC9:
 			return "battleai\\atelscr01668.bin";
 		case 0x61E59379:
 			return "battleai\\atelscr01669.bin";
+		case 0xA7A922AD:
+			return "battleai\\atelscr01670.bin";
+		case 0x9AC90B1D:
+			return "battleai\\atelscr01671.bin";
+		case 0xDD6971CD:
+			return "battleai\\atelscr01672.bin";
+		case 0xE009587D:
+			return "battleai\\atelscr01673.bin";
 		case 0x5229846D:
 			return "battleai\\atelscr01674.bin";
 		case 0x6F49ADDD:
@@ -1114,6 +2188,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01676.bin";
 		case 0x1589FEBD:
 			return "battleai\\atelscr01677.bin";
+		case 0x97D9696C:
+			return "battleai\\atelscr01678.bin";
+		case 0xAAB940DC:
+			return "battleai\\atelscr01679.bin";
 		case 0x56FF9078:
 			return "battleai\\atelscr01680.bin";
 		case 0x6B9FB9C8:
@@ -1122,10 +2200,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01682.bin";
 		case 0x115FEAA8:
 			return "battleai\\atelscr01683.bin";
+		case 0xA37F36B8:
+			return "battleai\\atelscr01684.bin";
+		case 0x9E1F1F08:
+			return "battleai\\atelscr01685.bin";
+		case 0xD9BF65D8:
+			return "battleai\\atelscr01686.bin";
+		case 0xE4DF4C68:
+			return "battleai\\atelscr01687.bin";
 		case 0x668FDBB9:
 			return "battleai\\atelscr01688.bin";
 		case 0x5BEFF209:
 			return "battleai\\atelscr01689.bin";
+		case 0x9DA343DD:
+			return "battleai\\atelscr01690.bin";
+		case 0xA0C36A6D:
+			return "battleai\\atelscr01691.bin";
+		case 0xE76310BD:
+			return "battleai\\atelscr01692.bin";
+		case 0xDA03390D:
+			return "battleai\\atelscr01693.bin";
 		case 0x6823E51D:
 			return "battleai\\atelscr01694.bin";
 		case 0x5543CCAD:
@@ -1134,6 +2228,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01696.bin";
 		case 0x2F839FCD:
 			return "battleai\\atelscr01697.bin";
+		case 0xADD3081C:
+			return "battleai\\atelscr01698.bin";
+		case 0x90B321AC:
+			return "battleai\\atelscr01699.bin";
 		case 0x1CDB19A1:
 			return "battleai\\atelscr01700.bin";
 		case 0x21BB3011:
@@ -1142,10 +2240,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01702.bin";
 		case 0x5B7B6371:
 			return "battleai\\atelscr01703.bin";
+		case 0xE95BBF61:
+			return "battleai\\atelscr01704.bin";
+		case 0xD43B96D1:
+			return "battleai\\atelscr01705.bin";
+		case 0x939BEC01:
+			return "battleai\\atelscr01706.bin";
+		case 0xAEFBC5B1:
+			return "battleai\\atelscr01707.bin";
 		case 0x2CAB5260:
 			return "battleai\\atelscr01708.bin";
 		case 0x11CB7BD0:
 			return "battleai\\atelscr01709.bin";
+		case 0xD787CA04:
+			return "battleai\\atelscr01710.bin";
+		case 0xEAE7E3B4:
+			return "battleai\\atelscr01711.bin";
+		case 0xAD479964:
+			return "battleai\\atelscr01712.bin";
+		case 0x9027B0D4:
+			return "battleai\\atelscr01713.bin";
 		case 0x22076CC4:
 			return "battleai\\atelscr01714.bin";
 		case 0x1F674574:
@@ -1154,6 +2268,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01716.bin";
 		case 0x65A71614:
 			return "battleai\\atelscr01717.bin";
+		case 0xE7F781C5:
+			return "battleai\\atelscr01718.bin";
+		case 0xDA97A875:
+			return "battleai\\atelscr01719.bin";
 		case 0x5113B8AA:
 			return "battleai\\atelscr01720.bin";
 		case 0x6C73911A:
@@ -1162,10 +2280,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01722.bin";
 		case 0x16B3C27A:
 			return "battleai\\atelscr01723.bin";
+		case 0xA4931E6A:
+			return "battleai\\atelscr01724.bin";
+		case 0x99F337DA:
+			return "battleai\\atelscr01725.bin";
+		case 0xDE534D0A:
+			return "battleai\\atelscr01726.bin";
+		case 0xE33364BA:
+			return "battleai\\atelscr01727.bin";
 		case 0x6163F36B:
 			return "battleai\\atelscr01728.bin";
 		case 0x5C03DADB:
 			return "battleai\\atelscr01729.bin";
+		case 0x9A4F6B0F:
+			return "battleai\\atelscr01730.bin";
+		case 0xA72F42BF:
+			return "battleai\\atelscr01731.bin";
+		case 0xE08F386F:
+			return "battleai\\atelscr01732.bin";
+		case 0xDDEF11DF:
+			return "battleai\\atelscr01733.bin";
 		case 0x6FCFCDCF:
 			return "battleai\\atelscr01734.bin";
 		case 0x52AFE47F:
@@ -1174,6 +2308,18 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01736.bin";
 		case 0x286FB71F:
 			return "battleai\\atelscr01737.bin";
+		case 0xAA3F20CE:
+			return "battleai\\atelscr01738.bin";
+		case 0x975F097E:
+			return "battleai\\atelscr01739.bin";
+		case 0x874A5BB7:
+			return "battleai\\atelscr01740.bin";
+		case 0xBA2A7207:
+			return "battleai\\atelscr01741.bin";
+		case 0xFD8A08D7:
+			return "battleai\\atelscr01742.bin";
+		case 0xC0EA2167:
+			return "battleai\\atelscr01743.bin";
 		case 0x72CAFD77:
 			return "battleai\\atelscr01744.bin";
 		case 0x4FAAD4C7:
@@ -1182,6 +2328,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01746.bin";
 		case 0x356A87A7:
 			return "battleai\\atelscr01747.bin";
+		case 0xB73A1076:
+			return "battleai\\atelscr01748.bin";
+		case 0x8A5A39C6:
+			return "battleai\\atelscr01749.bin";
 		case 0x4C168812:
 			return "battleai\\atelscr01750.bin";
 		case 0x7176A1A2:
@@ -1190,10 +2340,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01752.bin";
 		case 0xBB6F2C2:
 			return "battleai\\atelscr01753.bin";
+		case 0xB9962ED2:
+			return "battleai\\atelscr01754.bin";
+		case 0x84F60762:
+			return "battleai\\atelscr01755.bin";
+		case 0xC3567DB2:
+			return "battleai\\atelscr01756.bin";
+		case 0xFE365402:
+			return "battleai\\atelscr01757.bin";
 		case 0x7C66C3D3:
 			return "battleai\\atelscr01758.bin";
 		case 0x4106EA63:
 			return "battleai\\atelscr01759.bin";
+		case 0xCA82FABC:
+			return "battleai\\atelscr01760.bin";
+		case 0xF7E2D30C:
+			return "battleai\\atelscr01761.bin";
+		case 0xB042A9DC:
+			return "battleai\\atelscr01762.bin";
+		case 0x8D22806C:
+			return "battleai\\atelscr01763.bin";
 		case 0x3F025C7C:
 			return "battleai\\atelscr01764.bin";
 		case 0x26275CC:
@@ -1202,6 +2368,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01766.bin";
 		case 0x78A226AC:
 			return "battleai\\atelscr01767.bin";
+		case 0xFAF2B17D:
+			return "battleai\\atelscr01768.bin";
+		case 0xC79298CD:
+			return "battleai\\atelscr01769.bin";
 		case 0x1DE2919:
 			return "battleai\\atelscr01770.bin";
 		case 0x3CBE00A9:
@@ -1210,10 +2380,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01772.bin";
 		case 0x467E53C9:
 			return "battleai\\atelscr01773.bin";
+		case 0xF45E8FD9:
+			return "battleai\\atelscr01774.bin";
+		case 0xC93EA669:
+			return "battleai\\atelscr01775.bin";
+		case 0x8E9EDCB9:
+			return "battleai\\atelscr01776.bin";
+		case 0xB3FEF509:
+			return "battleai\\atelscr01777.bin";
 		case 0x31AE62D8:
 			return "battleai\\atelscr01778.bin";
 		case 0xCCE4B68:
 			return "battleai\\atelscr01779.bin";
+		case 0xF0889BCC:
+			return "battleai\\atelscr01780.bin";
+		case 0xCDE8B27C:
+			return "battleai\\atelscr01781.bin";
+		case 0x8A48C8AC:
+			return "battleai\\atelscr01782.bin";
+		case 0xB728E11C:
+			return "battleai\\atelscr01783.bin";
 		case 0x5083D0C:
 			return "battleai\\atelscr01784.bin";
 		case 0x386814BC:
@@ -1222,6 +2408,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01786.bin";
 		case 0x42A847DC:
 			return "battleai\\atelscr01787.bin";
+		case 0xC0F8D00D:
+			return "battleai\\atelscr01788.bin";
+		case 0xFD98F9BD:
+			return "battleai\\atelscr01789.bin";
 		case 0x3BD44869:
 			return "battleai\\atelscr01790.bin";
 		case 0x6B461D9:
@@ -1230,10 +2420,26 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01792.bin";
 		case 0x7C7432B9:
 			return "battleai\\atelscr01793.bin";
+		case 0xCE54EEA9:
+			return "battleai\\atelscr01794.bin";
+		case 0xF334C719:
+			return "battleai\\atelscr01795.bin";
+		case 0xB494BDC9:
+			return "battleai\\atelscr01796.bin";
+		case 0x89F49479:
+			return "battleai\\atelscr01797.bin";
 		case 0xBA403A8:
 			return "battleai\\atelscr01798.bin";
 		case 0x36C42A18:
 			return "battleai\\atelscr01799.bin";
+		case 0xEA936948:
+			return "battleai\\atelscr01800.bin";
+		case 0xD7F340F8:
+			return "battleai\\atelscr01801.bin";
+		case 0x90533A28:
+			return "battleai\\atelscr01802.bin";
+		case 0xAD331398:
+			return "battleai\\atelscr01803.bin";
 		case 0x1F13CF88:
 			return "battleai\\atelscr01804.bin";
 		case 0x2273E638:
@@ -1242,6 +2448,10 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01806.bin";
 		case 0x58B3B558:
 			return "battleai\\atelscr01807.bin";
+		case 0xDAE32289:
+			return "battleai\\atelscr01808.bin";
+		case 0xE7830B39:
+			return "battleai\\atelscr01809.bin";
 		case 0x21CFBAED:
 			return "battleai\\atelscr01810.bin";
 		case 0x1CAF935D:
@@ -1250,22 +2460,50 @@ string GetBtbPathFromHash(long hash) {
 			return "battleai\\atelscr01812.bin";
 		case 0x666FC03D:
 			return "battleai\\atelscr01813.bin";
+		case 0xD44F1C2D:
+			return "battleai\\atelscr01814.bin";
+		case 0xE92F359D:
+			return "battleai\\atelscr01815.bin";
+		case 0xAE8F4F4D:
+			return "battleai\\atelscr01816.bin";
+		case 0x93EF66FD:
+			return "battleai\\atelscr01817.bin";
 		case 0x11BFF12C:
 			return "battleai\\atelscr01818.bin";
 		case 0x2CDFD89C:
 			return "battleai\\atelscr01819.bin";
+		case 0xA75BC843:
+			return "battleai\\atelscr01820.bin";
+		case 0x9A3BE1F3:
+			return "battleai\\atelscr01821.bin";
+		case 0xDD9B9B23:
+			return "battleai\\atelscr01822.bin";
+		case 0xE0FBB293:
+			return "battleai\\atelscr01823.bin";
 		case 0x57F320CC:
 			return "battleai\\atelscr02000.bin";
 		case 0x6A93097C:
 			return "battleai\\atelscr02001.bin";
 		case 0x2D3373AC:
 			return "battleai\\atelscr02002.bin";
+		case 0x9CAFF369:
+			return "battleai\\atelscr02010.bin";
+		case 0xA1CFDAD9:
+			return "battleai\\atelscr02011.bin";
+		case 0xE66FA009:
+			return "battleai\\atelscr02012.bin";
 		case 0x1A3B81C7:
 			return "battleai\\atelscr02020.bin";
 		case 0x275BA877:
 			return "battleai\\atelscr02021.bin";
 		case 0x60FBD2A7:
 			return "battleai\\atelscr02022.bin";
+		case 0xD1675262:
+			return "battleai\\atelscr02030.bin";
+		case 0xEC077BD2:
+			return "battleai\\atelscr02031.bin";
+		case 0xABA70102:
+			return "battleai\\atelscr02032.bin";
 		case 0x725C55EC:
 			return "battleai\\atelscrRush10000.bin";
 		case 0x4F3C7C5C:
