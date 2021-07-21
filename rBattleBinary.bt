@@ -1,0 +1,122 @@
+//------------------------------------------------
+//--- 010 Editor v11.0.1 Binary Template
+//
+//      File: rBattleBinary (.btb)
+//   Authors: github.com/Andoryuuta
+//   Version: 1
+//   Purpose: Structure-only RE of the file.
+//  Category: 
+// File Mask: 
+//  ID Bytes: 52 74 62 00
+//   History: 
+//------------------------------------------------
+
+#include "rBattleBinary_btb_hashes.bt"
+
+struct {
+    uint32 magic;
+    uint32 version;
+} FileHeader;
+
+typedef struct {
+    uint32 field_0;
+    uint32 entry_count;
+    
+    typedef struct{
+        uint32 field_2;
+        uint32 field_3_count;
+        uint16 field_3[field_3_count];
+        uint32 field_4_count;
+        int32 field_4[field_4_count];
+        uint32 field_5_count;
+        byte field_5[field_5_count];
+    } atelscr_subentry <optimize=false>;
+    atelscr_subentry entries [entry_count];
+
+    byte pad[0x30];    
+
+} Atelscr <optimize=false>;
+
+typedef struct {
+    struct{
+        byte data[22];
+    } entries[18];
+
+} NpcAI <optimize=false>;
+
+
+typedef struct {
+    uint16 count;
+
+    typedef struct{
+        byte field1;
+        uint16 field2;
+        uint16 field3;
+        uint16 field4;
+        uint16 field5;
+        uint16 field6;
+        uint16 field7;
+        uint16 field8;
+        uint16 field9;
+        uint16 field10;
+        uint16 field11;
+        uint16 field12;
+        uint16 field13;
+        uint16 field14;
+        uint16 field15;
+        uint16 field16;
+        uint16 field17;
+        uint16 field18;
+        uint32 field19;
+        uint16 field20;
+        byte field21;
+    } HunterData_subentry <optimize=false>;
+    HunterData_subentry entries[count] <optimize=false>;
+} HunterData <optimize=false>;
+
+typedef struct {
+    uint32 data_size;
+    uint32 filepath_crc <read=ReadBTBCRC>;
+    local string path = GetBtbPathFromHash(filepath_crc);
+    
+    if(
+        Strstr(path, "atelscrRush") != -1 ||
+        Strstr(path, "atelscr") != -1 ||
+        Strstr(path, "testatel") != -1
+      ) {
+        Atelscr atel;
+    } else if (path == "battleparm\\HunterData.bin") {
+        HunterData hunter_data;
+    } else if (path == "battleai\\npcai.bin") {
+        NpcAI npcai;
+    } else {
+        byte data[data_size];
+    }
+} Entry <optimize=false>;
+
+typedef struct {
+    uint32 count;
+
+    local int i;
+    for(i=0; i < count; i++){
+        Entry entry <read=ReadEntry>;
+    }
+} EntryList <optimize=false>;
+
+
+EntryList battleai_entries;
+EntryList battleparm_entries;
+
+
+// Display/Reader functions below.
+string ReadEntry(Entry& e) {
+    string s;
+    SPrintf(s, "File: %s", GetBtbPathFromHash(e.filepath_crc));
+    return s;
+};
+
+string ReadBTBCRC(uint32 hash) {
+    string s;
+    SPrintf(s, "%X (%s)", hash, GetBtbPathFromHash(hash));
+    return s;
+};
