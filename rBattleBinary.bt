@@ -162,14 +162,67 @@ typedef struct {
         byte field41;
         uint16 field42;
         uint16 field43;
-        byte field_44;
-        byte field_45;
-        byte field_46;        
+        byte field44;
+        byte field45;
+        byte field46;
 
     } OtomonData_subentry <optimize=false>;
     OtomonData_subentry entries[count] <optimize=false>;
 
 } OtomonData <optimize=false>;
+
+typedef struct {
+    uint16 count;
+    typedef struct{
+        uint16 field0;
+        byte field1;
+        uint16 field2;
+        uint16 field3;
+        uint16 field4;
+        uint16 field5;
+        uint16 field6;
+        uint16 field7;
+        uint16 field8;
+        uint16 field9;
+        uint16 field10;
+        uint16 field11;
+        uint16 field12;
+        uint16 field13;
+        uint16 field14;
+        uint16 field15;
+        byte field16;
+
+    } PartsData_subentry <optimize=false>;
+    PartsData_subentry entries[count] <optimize=false>;
+} PartsData <optimize=false>;
+
+typedef struct {
+    uint16 count;
+    typedef struct{
+        byte field0;
+        uint16 field1;
+        uint16 field2;
+        uint16 field3;
+        uint16 field4;
+        uint16 field5;
+        uint16 field6;
+        uint16 field7;
+        uint16 field8;
+        uint16 field9;
+        uint16 field10;
+        uint16 field11;
+        uint16 field12;
+        uint16 field13;
+        uint16 field14;
+        uint16 field15;
+        uint16 field16;
+        uint16 field17;
+        uint32 field18;
+        uint16 field19;
+        byte field20;
+    } PlayerData_subentry <optimize=false>;
+    PlayerData_subentry entries[count] <optimize=false>;
+} PlayerData <optimize=false>;
 
 typedef struct {
     uint32 data_size;
@@ -190,6 +243,10 @@ typedef struct {
         MonsterBaseData monster_base_data;
     } else if (path == "battleparm\\OtomonData.bin") {
         OtomonData otomon_data;
+    } else if (path == "battleparm\\PartsData.bin") {
+        PartsData parts_data;
+    } else if (path == "battleparm\\PlayerData.bin") {
+        PlayerData player_data;
     } else if (path == "battleai\\npcai.bin") {
         NpcAI npcai;
     } else {
