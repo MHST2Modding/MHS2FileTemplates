@@ -75,6 +75,103 @@ typedef struct {
 } HunterData <optimize=false>;
 
 typedef struct {
+    uint16 count;
+
+    typedef struct{
+        uint16 field0;
+        uint16 field1;
+    } AdjustData_subentry <optimize=false>;
+    AdjustData_subentry entries[count] <optimize=false>;
+} AdjustData <optimize=false>;
+
+typedef struct {
+    uint16 count;
+    typedef struct{
+        uint32 data[15];
+    } MonsterBaseData_subentry <optimize=false>;
+    MonsterBaseData_subentry entries[count] <optimize=false>;
+} MonsterBaseData <optimize=false>;
+
+typedef struct {
+    uint16 count;
+
+    typedef struct{
+        uint16 field0;
+        
+        byte field1;
+        byte field2;
+        byte field3;
+        byte field4;
+        byte field5;
+        byte field6;
+        byte field7;
+        byte field8;
+        byte field9;
+        byte field10;
+        byte field11;
+        byte field12;
+        byte field13;
+        byte field14;
+        byte field15;
+        byte field16;
+        byte field17;
+        byte field18;
+        byte field19;
+        byte field20;
+        byte field21;
+
+        uint16 field22;
+        uint16 field23;
+        uint16 field24;
+        uint16 field25;
+        uint16 field26;
+        uint16 field27;
+        uint16 field28;
+        uint16 field29;
+        uint16 field30;
+        uint16 field31;
+        uint16 field32;
+        uint16 field33;
+        uint16 field34;
+        uint16 field35;
+        uint16 field36;
+        uint16 field37;
+        uint16 field38;
+
+        struct {
+            uint16 field0;
+            uint16 field1;
+            uint16 field2;
+            uint16 field3;
+            uint16 field4;
+            uint16 field5;
+            uint16 field6;
+            uint16 field7;
+            uint16 field8;
+            uint16 field9;
+            uint16 field10;
+            uint16 field11;
+            uint16 field12;
+            uint16 field13;
+            uint16 field14;
+            uint16 field15;
+        } subentries[5];
+
+        byte field39;
+        uint16 field40;
+        byte field41;
+        uint16 field42;
+        uint16 field43;
+        byte field_44;
+        byte field_45;
+        byte field_46;        
+
+    } OtomonData_subentry <optimize=false>;
+    OtomonData_subentry entries[count] <optimize=false>;
+
+} OtomonData <optimize=false>;
+
+typedef struct {
     uint32 data_size;
     uint32 filepath_crc <read=ReadBTBCRC>;
     local string path = GetBtbPathFromHash(filepath_crc);
@@ -87,6 +184,12 @@ typedef struct {
         Atelscr atel;
     } else if (path == "battleparm\\HunterData.bin") {
         HunterData hunter_data;
+    } else if (path == "battleparm\\adjustData.bin") {
+        AdjustData adjust_data;
+    } else if (path == "battleparm\\MonsterBaseData.bin") {
+        MonsterBaseData monster_base_data;
+    } else if (path == "battleparm\\OtomonData.bin") {
+        OtomonData otomon_data;
     } else if (path == "battleai\\npcai.bin") {
         NpcAI npcai;
     } else {
